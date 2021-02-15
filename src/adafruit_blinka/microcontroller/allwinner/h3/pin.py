@@ -7,6 +7,10 @@ PA1 = Pin(1)
 UART2_RX = PA1
 PA2 = Pin(2)
 PA3 = Pin(3)
+PA4 = Pin(4)
+UART0_TX = PA4
+PA5 = Pin(5)
+UART0_RX = PA5
 PA6 = Pin(6)
 PA7 = Pin(7)
 PA8 = Pin(8)
@@ -57,6 +61,8 @@ PG13 = Pin(205)
 
 PL2 = Pin((1, 2))
 PL4 = Pin((1, 4))
+PL11 = Pin((1, 11))
+SPDIF = PL11
 
 i2cPorts = ((0, TWI0_SCL, TWI0_SDA),)
 # ordered as spiId, sckId, mosiId, misoId
